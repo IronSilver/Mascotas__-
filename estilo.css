@@ -1,0 +1,287 @@
+html, body {
+  width: 90%;
+}
+
+main {
+  width: 100%;
+}
+
+.cajas {
+  width: 90%;
+  height: 650px;
+  margin-left: 15%;
+}
+
+
+.nav {
+  background: blue;
+  width: 100%;
+  height: 80px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.nav__items {
+  font-family: monospace;
+  font-size: 30px;
+  color: white;
+  width: 24%;
+  display: inline-block;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav__items:hover {
+  color: lightgrey;
+}
+
+
+.articulo {
+  background: green;
+  width: 277px;
+  height: 500px;
+  position: absolute;
+  margin-left: 644px;
+}
+
+
+.articulo p {
+  margin-top: 0;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  text-align: justify;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.articulo img {
+  width: 200px;
+  padding-left: 40px;
+  border-top-right-radius: 15px;
+
+}
+
+
+.seccion {
+  background: red;
+  width: 644px;
+  height: 500px;
+  position: absolute;
+
+}
+
+.seccion p {
+  margin-top: 0;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+  font-family: monospace;
+  font-size: 20px;
+
+}
+
+#snowbol {
+  height: 100px;
+  margin-left: 20px;
+  border-radius: 10px;
+  position: absolute;
+}
+
+#snowbol:hover {
+  height: 110px;
+  margin-right: 25px;
+}
+
+
+#perros {
+  height: 100px;
+  margin-left: 230px;
+  margin-right: 10px;
+  border-radius: 10px;
+  position: absolute;
+}
+
+#perros:hover {
+  height: 110px;
+  margin-left: 222px;
+  margin-right: 28.5px;
+
+}
+
+
+#gato {
+  height: 100px;
+  margin-left: 445px;
+  border-radius: 10px;
+  position: absolute;
+}
+
+
+#gato:hover {
+  height: 110px;
+  margin-left: 427px;
+  border-radius: 10px;
+}
+
+
+.pie__pagina {
+  background: orange;
+  width: 100%;
+  height: 70px;
+  margin-top: 500px;
+}
+
+.pie__pagina p {
+  font-family: monospace;
+  margin-top: 0;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+html, body {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+.cajas {
+  width: 90%;
+  height: 800px;
+  margin-left: 0;
+  align-content: center;
+}
+
+
+
+.articulo {
+  margin-top: 1260px;
+  width: 83%;
+  height: 400px;
+  margin-left: 0;
+
+}
+
+
+.articulo img {
+  width: 200px;
+  padding-left: 25%;
+  border-top-right-radius: 15px;
+
+}
+
+
+.seccion {
+  width: 83%;
+  margin-left: 0;
+  height: 1260px;
+
+}
+
+
+.nav {
+  width: 113.9%;
+  height: 180px;
+  margin-left: 0;
+
+}
+
+.nav__items {
+
+  font-family: monospace;
+  font-size: 40px;
+  color: white;
+  width: 49%;
+  text-align: center;
+  padding-top: 23px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+#snowbol {
+  width: 91%;
+  height: 170px;
+  margin-left: 20px;
+  margin-top: 25px;
+  border-radius: 10px;
+  position: absolute;
+}
+
+#snowbol:hover {
+  width: 71%;
+  height: 150px;
+  margin-left: 15%;
+  margin-top: 35px;
+}  
+
+
+#perros {
+  width: 91%;
+  height: 150px;
+  margin-top: 250px;
+  margin-left: 20px;
+  border-radius: 10px;
+  position: absolute;
+}
+
+#perros:hover {
+  width: 71%;
+  height: 130px;
+  margin-left: 15%;
+  margin-top: 260px;
+}
+
+
+#gato {
+  width: 91%;
+  height: 150px;
+  margin-top: 460px;
+  margin-left: 20px;
+  margin-right: 10px;
+  border-radius: 10px;
+  position: absolute;
+}
+
+
+#gato:hover {
+  width: 71%;
+  height: 130px;
+  margin-left: 15%;
+  margin-top: 470px;
+}
+
+
+.pie__pagina {
+  text-align: justify;
+  background: orange;
+  width: 114%;
+  height: 150px;
+  padding-top: 20px;
+  margin-top: 1650px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
